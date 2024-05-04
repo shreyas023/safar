@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('Safar.html')
+    return render_template('/Safar.html')
 
 @app.route('/process_data', methods=['POST'])
 def process_data():
